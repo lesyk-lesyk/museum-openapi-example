@@ -20,7 +20,7 @@ jobs:
           organization: 'lesyk-org'
           project: 'reunite-push-action-demo'
           mountPath: '/apis/museum'
-          files: 'museum-api.yaml'
+          files: 'openapi.yaml'
           domain: 'https://app.bhstage.cloud'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
